@@ -3,6 +3,7 @@
 int main() 
 
 {
+
   //Declarações de Variáveis
    float produto, resultado, variavel; 
 
@@ -21,4 +22,5 @@ int main()
   printf("O preco final do produto é: %2.f ",resultado);
 
 return 0;
+
 }
