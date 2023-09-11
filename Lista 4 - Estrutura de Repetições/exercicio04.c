@@ -5,6 +5,7 @@ int main()
 {
 
     int balas = 5, arvore, escolha, contador = 0;
+    
     printf("\nMARCIANO:\nEscolha uma arvore de 1 a 100: ");
      scanf("%d", &arvore);
     system("cls");
@@ -12,16 +13,22 @@ int main()
     {
         printf("\nCACADOR:\nEscolha uma arvore de 1 a 100: ");
          scanf("%d", &escolha);
-        if (escolha > arvore)
+
+        if (escolha > arvore){
             printf("\n hahaha estou mais a esquerda!!\n");
-        else if (escolha < arvore)
+
+        }else if (escolha < arvore){
+
             printf("\n hahaha estou mais a direita!!\n");
-        else
+
+        }else{
             contador = 1;
-        balas--;
+            balas--;
+
+        }if (contador == 1){
+            printf("\nCACADOR GANHOU!!!!!");
+        }else{
+            printf("\nMARCIANO GANHOU!!!!!");
+        }
     }
-    if (contador == 1)
-        printf("\nCACADOR GANHOU!!!!!");
-    else
-        printf("\nMARCIANO GANHOU!!!!!");
 }
