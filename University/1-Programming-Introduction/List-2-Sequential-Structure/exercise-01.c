@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main()
+{
 
-/*1. Faça um programa que lê o ano de nascimento e imprima na tela a sua
-idade.*/
+  /*1. Faça um programa que lê o ano de nascimento e imprima na tela a sua
+  idade.*/
 
-int birth_year, age;
+  int birth_year, age;
 
   printf("\n\nWhat is the year of your birth ?");
   scanf("%d", &birth_year);
@@ -15,5 +16,5 @@ int birth_year, age;
 
   printf("Your age is %d years", age);
 
-return 0;
+  return 0;
 }

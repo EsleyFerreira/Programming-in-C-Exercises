@@ -6,7 +6,7 @@ int main()
     imprima o seu cubo.*/
 
     int n, cube;
-  
+
     printf("\n\nCalculation of the Cube of a Number.");
     printf("\n\nEnter a number: ");
     scanf("%d", &n);
