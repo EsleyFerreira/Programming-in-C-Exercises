@@ -3,8 +3,8 @@
 int main()
 {
     /*
-        // 1. Dado um vetor com 100 valores inteiros,
-        verifique a quantidade de números pares e números impares.
+     1. Dado um vetor com 100 valores inteiros,
+    verifique a quantidade de números pares e números impares.
     */
 
     printf("\nQuantity of odd and even numbers");

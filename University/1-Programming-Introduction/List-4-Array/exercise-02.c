@@ -3,7 +3,7 @@
 int main()
 {
     /*
-        // 2. Dado um vetor com 100 elementos, preencha-o com valores aleatórios e
+        2. Dado um vetor com 100 elementos, preencha-o com valores aleatórios e
         imprima na tela os valores que ocupam posições pares no vetor.
         Ex: vetor[2], vetor[4], vetor[6],... etc.
     */
